@@ -1,0 +1,49 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  
+  position: fixed;       
+  top: 0;                
+  left: 0;              
+  width: 100vw;          
+  z-index: 1000;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 75px;
+  text-decoration: none;
+  font-size: 17px;      
+  font-family: "Roboto";
+  font-weight: bolder;         
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #dddddd46;
+  color: rgb(255, 255, 255);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #dddddd46;
+  color: rgb(255, 255, 255);
+}
+
+#welcome{
+    padding-top: 50px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bolder;
+}
+
+#Selected_projects{
+  color: white;
+  font-family: "Roboto";
+  font-weight: bolder;
+}
