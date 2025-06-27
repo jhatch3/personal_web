@@ -2,22 +2,26 @@
 .topnav {
   background-color: #000000;
   overflow: hidden;
-  
   position: fixed;       
   top: 0;                
   left: 0;              
   width: 100vw;          
   z-index: 1000;
-
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 75px;
   text-decoration: none;
+
+  /* Font Styles */
+  color: #f2f2f2;
   font-size: 17px;      
   font-family: "Roboto";
   font-weight: bolder;         
@@ -29,9 +33,16 @@
   color: rgb(255, 255, 255);
 }
 
-
+/* Center and style the welcome message */
 #welcome{
-    padding-top: 50px;
+
+    /* Moves text down */
+    padding-top: 200px;
+
+    /* Centers text */
+    text-align: center;
+
+    /* Font Styles*/
     color: white;
     font-family: "Roboto";
     font-weight: bolder;
@@ -39,8 +50,37 @@
 }
 
 #Selected_projects{
+  padding-top: 50px;
   color: white;
   font-family: "Roboto";
   font-weight: bolder;
+  font-size: 35px;
+  text-align: center;
+
+}
+
+#Projects {
+
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+  padding: 30px;
+
+}
+
+.project_div {
+  width: 45%;              
+  min-width: 300px;        
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#Project_p{
+  color: white;
+  font-family: "Roboto";
+  font-size: 17.5px;
 
 }
