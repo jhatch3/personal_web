@@ -33,11 +33,17 @@
   color: rgb(255, 255, 255);
 }
 
+#picture {
+  width: 250px;  /* Ensure width is 231px */
+  height: 250px; /* Ensure height is 231px */
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  clip-path: circle();
+}
+
 /* Center and style the welcome message */
 #welcome{
-
-    /* Moves text down */
-    padding-top: 200px;
 
     /* Centers text */
     text-align: center;
@@ -83,4 +89,40 @@
   font-family: "Roboto";
   font-size: 17.5px;
 
+}
+
+
+/* About Me section */
+
+#about_me_div{
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+#about_me_h1{
+  font-size: 250%;
+}
+
+.about_me_p{
+  text-align: left;
+  font-size: 80%;
+}
+
+#linked_in{
+  color: white;
+}
+
+#linked_in:hover{
+  color: rgb(129, 129, 167);
+}
+
+#linked_in_img{
+  width: 25px;
+  height: auto; /* keeps aspect ratio */
+  
 }
