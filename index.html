@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: #000000;">
+<body style="background-color: #1e1e1e;">
 
   <!-- Top Navigation -->
   <div class="topnav">
@@ -16,14 +16,17 @@
     <a href=contact.html>CONTACT</a>
   </div>
 
-  <img id="picture" src="picture.jpg" alt="Picutre of Justin Hatch" >
-  <h1 id="welcome">Welcome! My name is Justin. 👋</h1>
+  <div class="circle-wrapper">
+    <img id="picture" src="picture.jpg" alt="Picutre of Justin Hatch" >
+  </div>
+
+  <h1 class="welcome">Welcome! My name is Justin. 👋</h1>
   <h2 id="Selected_projects">Selected Projects</h2>
 
   <!-- Container for Projects -->
   <div id="Projects">
     <div class="project_div">
-      <h6>Evaluated Machine Learning Models for Customer Churn Prediction</h6>
+      <h6 class="project_h6" >Evaluated Machine Learning Models for Customer Churn Prediction</h6>
       <p id="Project_p">
         - Performed data preprocessing, including cleaning and feature engineering, to prepare a structured dataset for supervised learning tasks. <br> <br>
         - Implemented and fine-tuned multiple classification algorithms, including Decision Trees, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Multilayer Perceptrons (MLP). <br><br>
@@ -34,7 +37,7 @@
     </div>
 
     <div class="project_div">
-      <h6>Python Script to Help Automate Invoice Reconciliation</h6>
+      <h6 class="project_h6">Python Script to Help Automate Invoice Reconciliation</h6>
       <p id="Project_p">
         - Developed a Python script to streamline the invoice reconciliation process by comparing datasets from .xlsm Excel file. <br> <br>
         - Utilized python to read, clean, and manipulate financial data for efficient analysis.<br> <br>
@@ -44,6 +47,10 @@
 
       </p>
     </div>
+    
+
+
+
   </div>
 </body>
 </html>

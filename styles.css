@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #000000;
+  background-color: #1e1e1e;
   overflow: hidden;
   position: fixed;       
   top: 0;                
@@ -21,7 +21,7 @@
   text-decoration: none;
 
   /* Font Styles */
-  color: #f2f2f2;
+  color: #fdfbd4;
   font-size: 17px;      
   font-family: "Roboto";
   font-weight: bolder;         
@@ -33,79 +33,135 @@
   color: rgb(255, 255, 255);
 }
 
-#picture {
-  width: 250px;  /* Ensure width is 231px */
-  height: 250px; /* Ensure height is 231px */
+
+.circle-wrapper {
+  width: 225px;
+  height: 225px;
+  margin: 100px auto; /* center and add space above */
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5), 0px 4px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.circle-img {
+  object-fit: cover;
   display: block;
-  margin: auto;
-  margin-top: 100px;
-  clip-path: circle();
 }
 
 /* Center and style the welcome message */
-#welcome{
+.welcome{
 
     /* Centers text */
     text-align: center;
-
+    margin-top: -40px;
     /* Font Styles*/
-    color: white;
+
+    /* https://www.youtube.com/watch?v=-H_AEvXY7v4&t=214s */
+    background: linear-gradient(90deg, #fdfbd4, #795f5f,  #fdfbd4, #795f5f);
+
+    background-size: 300%, 300%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: gradient-shift 5s infinite linear;
+
     font-family: "Roboto";
     font-weight: bolder;
     font-size: 125px;
+    
+}
+
+/* https://www.youtube.com/watch?v=-H_AEvXY7v4&t=214s */
+@keyframes gradient-shift{
+
+  0%{
+    background-position: 0%, 50%;
+  }
+
+  50%{
+    background-position: 100%, 50%;
+  }
+
+  100%{
+    background-position: 0%, 50%;
+  }
+
+
 }
 
 #Selected_projects{
-  padding-top: 50px;
-  color: white;
+  margin-top: 100px;
+
+  
+  color: #fdfbd4;
+  text-shadow: 3px 3px 4px #000000;
   font-family: "Roboto";
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
-
 }
 
 #Projects {
-
   display: flex;
   justify-content: space-around; 
   flex-wrap: wrap;
-  padding: 30px;
-
 }
 
 .project_div {
-  width: 45%;              
-  min-width: 300px;        
-  color: white;
+  width: 47.5%;           
+  min-width: 300px; 
+  margin-top: -45px;
+  margin-right: -50px;
+  margin-left: -50px;
+  color: #fdfbd4;
   font-family: "Roboto", sans-serif;
   font-size: 45px;
   border-radius: 10px;
   box-sizing: border-box;
+  
 }
 
 #Project_p{
-  color: white;
+  color: #fdfbd4;
   font-family: "Roboto";
   font-size: 17.5px;
 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5), 0px 4px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.project_h6{
+  margin-bottom: 5px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5), 0px 4px 16px 0px rgba(0, 0, 0, 0.5);
 }
 
 
 /* About Me section */
 
 #about_me_div{
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
   font-family: "Roboto";
   font-size: 200%;
-  color: rgb(255, 255, 255);
-  padding-right: 250px;
-  padding-left: 250px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #fdfbd4;
+
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5), 0px 4px 16px 0px rgba(0, 0, 0, 0.5);
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
+
 #about_me_h1{
-  font-size: 250%;
+  font-size: 200%;
+  margin-top: -40px;
 }
 
 .about_me_p{
@@ -114,7 +170,7 @@
 }
 
 #linked_in{
-  color: white;
+  color: #fdfbd4;
 }
 
 #linked_in:hover{
