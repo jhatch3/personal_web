@@ -107,10 +107,7 @@
   font-size: 40px;
   text-align: center;
   
-  padding: 2.5%;
-  border-radius: 10px;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5), 0px 4px 16px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 #Projects {
@@ -159,6 +156,49 @@
 
   padding: 25px;
   padding-top: 10px;
+  /*
+  border-radius: 10px;
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5), 0px 4px 16px 0px rgba(0, 0, 0, 0.5);
+  */
+}
+
+#index_about_me_header{
+  margin-top: 100px;
+
+  
+  color: #fdfbd4;
+  text-shadow: 2.5px 2.5px 4px #000000;
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+  
+
+}
+
+.index_about_me_div{
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 200%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #fdfbd4;
+
+}
+
+#index_about_me_p{
+
+  color: #fdfbd4;
+  font-family: "Roboto";
+  font-size: 25px;
+  text-align: left;
+
+  padding: 10px;
+  text-shadow: 2.5px 2.5px 4px #000000;
   /*
   border-radius: 10px;
   box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5), 0px 4px 16px 0px rgba(0, 0, 0, 0.5);
@@ -223,4 +263,67 @@
   width: 25px;
   height: auto; /* keeps aspect ratio */
   
+}
+
+/* PROJECTS */
+/* Chatgpt for collapsible grid */
+
+#Click_to_see_more {
+  margin-top: 75px;
+  margin-bottom: -75px;
+  margin-left: 25px;
+  color: #fdfbd4;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-shadow: 2.5px 2.5px 4px #000000;
+}
+
+.Projects_ {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.project_div_ {
+  text-shadow: 2.5px 2.5px 4px #000000;
+  width: 47.5%;
+  min-width: 300px;
+  margin: 7.5px 0px;
+  padding: 15px;
+  color: #fdfbd4;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #1e1e1e;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5), 0px 4px 16px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease;
+}
+
+.project_h6_ {
+  padding-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+/* Collapsed paragraph */
+.Project_p_ {
+  font-family: "Roboto";
+  font-size: 17.5px;
+  color: #fdfbd4;
+  margin-top: 10px;
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+/* Expanded state */
+.project_div_.expanded .Project_p_ {
+  max-height: 1000px; /* Enough to fit full text */
+  opacity: 1;
 }
