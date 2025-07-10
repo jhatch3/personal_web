@@ -274,8 +274,8 @@
   margin-left: 25px;
   color: #fdfbd4;
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  text-shadow: 2.5px 2.5px 4px #000000;
+  font-size: 20px;
+  text-shadow: 4px 4px 4px #000000;
 }
 
 .Projects_ {
@@ -326,4 +326,38 @@
 .project_div_.expanded .Project_p_ {
   max-height: 1000px; /* Enough to fit full text */
   opacity: 1;
+}
+
+
+/* Class Work */
+#class_work_div{
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "Roboto";
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #fdfbd4;
+
+  text-shadow: 2.5px 2.5px 4px #000000;
+
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5), 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+.class_h6{
+  font-weight:900;
+  font-size: 30px;
+  margin: -5px;
+  margin-bottom: 7.5px;
+}
+
+.class_p{
+  font-size: 20px;
+  margin-bottom: 30px;
 }
