@@ -43,7 +43,16 @@ The design is clean, responsive, and customizable, aimed at recruiters, collabor
 
 ---
 
+## 🛠️ Technologies Used
 
+- **HTML5** – Static structure for all pages
+- **CSS3** – Styling and layout
+- **Vanilla JavaScript** – Enables interactive project cards
+- **Formspree** – Handles contact form submissions
+- **Google Fonts (Roboto)** – Typography styling
+- **Icons8** – Social icons (GitHub, LinkedIn)
+
+---
 ## 🌐 Deployment
 
 This site is ready for deployment via:
