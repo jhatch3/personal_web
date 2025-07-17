@@ -8,10 +8,7 @@ This repository contains the source code for my personal website, created to sho
 
 - 🖥️ [Project Overview](#project-overview)
 - 📂 [File Structure](#file-structure)
-- ⚙️ [Installation & Usage](#installation--usage)
-- 🎨 [Customization](#customization)
 - 🛠️ [Technologies Used](#technologies-used)
-- 🌐 [Deployment](#deployment)
 - 🧠 [Learning Outcomes](#learning-outcomes)
 
 ---
@@ -46,67 +43,12 @@ The design is clean, responsive, and customizable, aimed at recruiters, collabor
 
 ---
 
-## ⚙️ Installation & Usage
-
-To view or modify the website locally:
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/jhatch3/personal_web.git
-   cd personal_web
-   ```
-
-2. **View the Site**
-
-   - Option 1: Open `index.html` in your browser
-   - Option 2: Use Python's HTTP server
-     ```bash
-     python3 -m http.server
-     # Then visit http://localhost:8000
-     ```
-
-3. **Navigate the Site** Use the nav bar to move between pages: Home, About Me, Projects, Class Work, and Contact.
-
----
-
-## 🎨 Customization
-
-You can easily adapt this site to your needs:
-
-- **Text & Content:** Edit `.html` files to update bio, skills, and project info.
-- **Images:** Replace `picture.jpg` and icon files with your own assets.
-- **Styling:** Modify `styles.css` to change fonts, colors, layout, and spacing.
-- **Contact Form:** Update the `form` `action` in `contact.html` with your Formspree link.
-
----
-
-## 🛠️ Technologies Used
-
-- **HTML5** – Static structure for all pages
-- **CSS3** – Styling and layout
-- **Vanilla JavaScript** – Enables interactive project cards
-- **Formspree** – Handles contact form submissions
-- **Google Fonts (Roboto)** – Typography styling
-- **Icons8** – Social icons (GitHub, LinkedIn)
-
----
 
 ## 🌐 Deployment
 
 This site is ready for deployment via:
 
 - **GitHub Pages**
-- **Netlify**
-- **Vercel**
-- Any static file host
-
-To deploy with GitHub Pages:
-
-1. Push the repo to GitHub
-2. Go to **Settings > Pages**
-3. Set source to `main` and root directory
-4. Visit `https://your-username.github.io/personal_web/`
 
 ---
 
